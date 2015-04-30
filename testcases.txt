@@ -1,0 +1,68 @@
+Test cases :
+
+String 
+	string with spaces and no integer   (raj kumar)
+	string with spaces and integer (raj kumar92 / rajkumar 92)
+	string with integer and without spaces  (raj492)
+	string with special characters (except @)     (raj-kumar)
+	Pure string (without integer,space,special characters)     (rajkumar)
+
+	**************************************
+	String with .    (St.)
+	**************************************
+
+Integer
+	Normal Integers
+		Integer with spaces  (44 92)
+		Integer with string   (44raj)
+		Integer with special characters   (#44)
+		Pure integers (without string,space,special characters)  (4492)
+	Decimal integers 
+		With spaces   (4 4.92)
+		With string    (44.34r)
+		With special characters  (#43.98)
+		Pure decimal integers  (44.92)
+
+Email
+	Email with @ and . (raj@gmail.com)	  
+	Email with @ but without .  (raj@gmailcom)
+	Email with . but wihout @   (rajgmail.com)
+	Email with special characters (raj_kumar@gmail.com)
+
+Website
+	string with www and without .   (www.rajkumarcom)
+	************************************************
+	string without www and with .  (rajkumar.com)
+	*************************************************
+	string with . and with www      (www.rajkumar.com)
+	string with . and with www and also integers/special characters   (www.raj04404.com / www.raj-kuamar.com)
+
+Special characters
+	With integers (56-98)		
+	with strings   (raj-kumar)
+	With both strings and integers (raj-kumar92)
+
+State code :  (mentioned in the array)
+	Two alphabets and uppercase (TX,AL,CA,WY)   
+	Two alphabets and lowercase (tx,al,ca,wy)
+
+	Note : State codes are two lettered alphabets but viceversa is not necessarily true
+
+
+Zipcodes :
+	Mostly 5 digits .. But not all 5 digits are zip codes.. (mentioned in the array)
+	With hyphen (10001-646)
+	With two hyphens (38119--896)
+
+Phone NO :   (standard US phone no structure is xxx-yyyy-zzzz)
+
+	Integer with hyphen --------------->    702-451-3737
+	Integer with parantheses and hyphen -------------->   (206) 412-2153 
+	Integer with a special "1" --------------> 1-702-451-3737
+	Integer with strings -------------->  1-800-Flowers
+	Pure 10 digit Integers (5048380227)
+
+
+
+**** scenarios are same .. Difference depends on the no of characters after dot 
+i.e if no of characters after . is 3 then it is website (like .com .net)
