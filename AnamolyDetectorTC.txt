@@ -1,5 +1,5 @@
 	
-----------------------------------------------------------------------------------		
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------	
 Project Name     :  Anamoly Detector Tool|	Test Designed By   :Sonu Kumar    |
 Release Version  :  1.0	                 |      Test Designed Date:29/04/2015     |
 Date Of Release  :  28/04/2015	         |      Test Executed By   :Sonu kumar    |
@@ -61,8 +61,8 @@ Approved By      :	                 |                                        |
 |      |                 |   and integer (ex:raj kumar92 / rajkumar 92)             |                            |                            |                    |             |
 |      |                 |                                                          |                            |                            |                    |             |
 |      |                 |                                                          |                            |                            |                    |             |
-|      |                 | c)After executing csv file if the string                 |PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
-|      |                 |  column Contains string with integer and                 |                            |                            |                    |             |              |      |                 |   without spaces  (ex:sonu234)                           |                            |                            |                    |                         
+|      |                 | c)After executing csv file if the string column  Contains|PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
+|      |                 |  string with integer and without spaces  (ex:sonu234)    |                            |                            |                    |             |              |      |                 |                             |                            |                            |                    |                         
 |      |                 |                                                          |                            |                            |                    |             |
 |      |                 | d)After executing csv file if the string                 |PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
 |      |                 |  column contains string with                             |                            |                            |                    |             |
@@ -77,9 +77,9 @@ Approved By      :	                 |                                        |
 |      |                 | b)After executing csv file if the email                  |This Column appears bug free|This Column appears bug free|Pass                |             |
 |      |                 | column contains email with special characters            |                            |                            |                    |             |
 |      |                 | (ex:raj_kumar@gmail.com)                                 |                            |                            |                    |             |
-|      |      Negative   |c)After executing csv file if the email                   |PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
-|      |                 |   column contains email with @ but without               |                            |                            |                    |             |
-|      |                 |   dot (ex: rajkumar.com)                                 |                            |                            |                    |             |
+|      |      Negative   |c)After executing csv file if the email column contains   |PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
+|      |                 |   email with @ but without dot (ex: rajkumar.com)        |                            |                            |                    |             |
+|      |                 |                                                          |                            |                            |                    |             |
 |      |                 |                                                          |                            |                            |                    |             |
 |      |                 |                                                          |                            |                            |                    |             |
 |      |                 |d)After executing csv file if the email                   |PLEASE OPEN improperData.txt|PLEASE OPEN improperData.txt|Pass                |             |
@@ -126,4 +126,4 @@ Approved By      :	                 |                                        |
 |      |                 | e)After executing csv file if the  phone                 |PLEASE OPEN improperData.txt|                            |                    |             |
 |      |                 |    number column contains integer with a                 |                            |                            |                    |             |
 |      |                 |   special  "1"(ex:1-702-451-3737)                        |                            |                            |                    |             |
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
