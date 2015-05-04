@@ -29,7 +29,7 @@ setup(
     version='1.2.7', # Alpha Release
 
     description='A Python tool to detect Anamolies',
-    long_description=read_description('CONTRIBUTE.md'),
+    long_description=read_description('DESCRIPTION.rst'),
 
     # The project's main homepage.
     url='github.com/raj040492/CSV-anomaly-detector',
