@@ -3,18 +3,22 @@ See:
 https://packaging.python.org/en/latest/distributing.html
 https://github.com/pypa/sampleproject
 """
-
+import os
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 # To use a consistent encoding
 from codecs import open
-from os import path
 
-here = path.abspath(path.dirname(__file__))
+
 
 # Get the long description from the relevant file
-# with open(path.join(here, 'bin/DESCRIPTION.rst'), encoding='utf-8') as f:
-#     long_description = f.read()
+def read_description(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
+install_dependencies = [
+    "requests>=2.7.0",
+    "compago>=1.4"
+]
 
 setup(
     name='CSV-anomaly-detector',
@@ -25,7 +29,7 @@ setup(
     version='1.2.7', # Alpha Release
 
     description='A Python tool to detect Anamolies',
-    # long_description=long_description,
+    long_description=read_description('CONTRIBUTE.md'),
 
     # The project's main homepage.
     url='github.com/raj040492/CSV-anomaly-detector',
@@ -75,7 +79,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['python>=2.0.1'],
+    install_requires=install_dependencies,
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -106,11 +110,11 @@ setup(
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
-    # entry_points={
-    #     'console_scripts': [
-    #         'AnamolyDetector1=AnamolyDetector:main',
-    #     ],
+    entry_points={
+        'console_scripts': [
+            'AnomalyDetector=AnomalyDetector:main'
+        ],
 
-    # },
-    scripts = ['bin/AnamolyDetector']
+    },
+    scripts = ['AnomalyDetector.py']
     )
