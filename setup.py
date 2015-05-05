@@ -26,7 +26,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.2.7', # Alpha Release
+    version='1.2.9', # Alpha Release
 
     description='A Python tool to detect Anamolies',
     long_description=read_description('DESCRIPTION.rst'),
@@ -96,7 +96,6 @@ setup(
     # package_data={
     #     'mypkg': ['DESCRIPTION.rst'],
     # },
-
     # exclude_package_data = { 
     #     '': ['DESCRIPTION.rst'] 
     # },
