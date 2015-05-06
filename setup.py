@@ -111,7 +111,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'AnomalyDetector=AnomalyDetector:main'
+            'AnomalyDetector=AnomalyDetector:app.run'
         ],
 
     },
